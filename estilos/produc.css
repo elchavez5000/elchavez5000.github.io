@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@font-face {
+    font-family: gucci;
+    src: url(../fonts/Granjon.otf);
+  }
+:root{
+    --primaryColor: #064469 ;
+    --textColor:    #021024 ;
+    --fondo: #EDF1F4;
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--fondo);
+    font-family: 'gucci', sans-serif;
+}
+
+header{
+    height: 70px;
+    background-image: url(../img/chlll.jpg);
+    background-color: var(--primaryColor);
+    float: left ;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+header>div{
+    margin-left: 10%;
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    
+    
+  /*SIRVE PARA QUE UNO ESTE A LADO DEL OTRO*/
+
+
+}
+
+#caja1{
+    padding-top: 10px;
+}
+#caja1 > a{
+    color: #fff;
+    padding-left: 10px;
+   
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 22px;
+    
+    
+}
+
+
+#caja2{
+    margin-left: 0% ;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    padding-top: 2px;
+
+}
+#caja2 > a{
+   color: white;
+   font-size: 2.9rem;
+   text-decoration: none;
+}
+    
+header>nav{
+    margin-right: 10%;
+    width: 15%;
+    height: 50px;
+   margin-top: 10px;
+    height: 50px;
+    text-align: right;
+    text-decoration: none;
+}
+#caja3{
+    padding-top: 10px;
+}
+#caja3 > a{
+    color: #fff;
+    padding-left: 10px;
+   text-decoration: none;
+    margin-top: 10px;
+    font-size: 22px;   
+    
+}
+section#seccion1{
+    width: 100%;
+    height: 40px;
+    float: left;
+    margin-top: 70px;
+    border: 8px solid  black;
+    
+
+    background-image: url();
+    border: #021024 ;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0;
+    transform: scale(0.95);
+    transition: box-shadow 0.5s, transform 0.5s;
+    transform: scale(1);
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+
+}
+section#seccion1 > div >a {
+    color: #000000;
+    font-size: 22px;
+    display: block;
+    width: 55%;
+    float: left;
+    text-align:  center;
+    padding: 10px;
+    direction: none;
+    text-decoration: none;
+    text-decoration: none;
+    
+
+
+}
+#a1{
+    margin-left: 20%;
+    text-decoration: none;
+}

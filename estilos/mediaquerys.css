@@ -1,0 +1,33 @@
+@media only screen and (min-width: 300px) and (max-width: 576px){
+   
+    
+  
+    #seccion2 div{
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+    #seccion1 nav a{
+        display: none;
+    }
+    #products{
+        width: 80%;
+    }
+    .col{
+        width: 100%;
+        margin-top: 50px;
+    }
+    #seccion1 > div > a {
+        display: none;
+        visibility: hidden;
+        
+    }
+  
+
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1000px){
+    .col{
+        width: 40%;
+        margin-top: 50px;
+    }
+}
