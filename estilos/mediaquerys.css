@@ -4,7 +4,13 @@
   
     #seccion2 div{
         min-height: 0vh;
-        padding: 80px 30px 50px 30px;
+        height: 80%;
+        padding: none   ;
+        
+
+        margin-left: 10%;
+        
+    
     }
     #seccion1 nav a{
         display: none;
